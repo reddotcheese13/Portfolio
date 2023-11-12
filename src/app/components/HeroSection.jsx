@@ -37,11 +37,11 @@ const HeroSection = () => {
             Agile methodologies and specializing in algorithmic domains.
           </p>
           <div>
-            <button className="px-6 py-3 mr-4 w-full sm:w-fit rounded-full bg-gradient-to-br from-blue-500 via-purple-500 to-pink-500 hover:bg-slate-200 text-black">
+            <button className="bg-gradient-to-br from-blue-500 via-purple-500 to-pink-500 hover:bg-slate-200 text-white px-6 py-3 rounded-full mr-4">
               Hire Me
             </button>
-            <button className="px-1 py-1 rounded-full w-full sm:w-fit   bg-gradient-to-br from-blue-500 via-purple-500 to-pink-500 mt-3 border border-white">
-              <span className="block bg-black hover:bg-slate-600 rounded-full px-5 py-2">
+            <button className="m-4 bg-gradient-to-br from-blue-500 via-purple-500 to-pink-500 px-1 py-1  text-white rounded-full">
+              <span className="block bg-[#121212] hover:bg-slate-800 rounded-full px-5 py-2">
                 Download CV
               </span>
             </button>
