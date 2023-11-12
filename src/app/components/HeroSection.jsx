@@ -10,7 +10,7 @@ const HeroSection = () => {
         <div className="col-span-7 place-self-center text-center sm:text-left">
           <h1 className="text-white mb-4 text-4xl sm:text-5xl lg:text-6xl font-extrabold">
             <span className="text-transparent bg-clip-text bg-gradient-to-br from-purple-500 to-pink-600">
-              Hello, I&apos;m
+              Hello, I&apos;m{" "}
             </span>
             <TypeAnimation
               sequence={[
@@ -50,11 +50,11 @@ const HeroSection = () => {
         <div className="col-span-5 place-self-center mt-4 lg:mt-0">
           <div className="flex items-center justify-center rounded-full bg-[#181818] w-80vw h-80vw md:w-96 md:h-96">
             <Image
-              src="/images/hero-img.png"
+              src="/images/hero-image.png"
               alt="hero image"
               className="block rounded-full"
-              width={400} // Adjust the width as needed
-              height={400} // Adjust the height as needed
+              width={400}
+              height={400}
             />
           </div>
         </div>
