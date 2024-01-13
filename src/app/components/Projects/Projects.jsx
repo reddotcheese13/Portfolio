@@ -65,7 +65,7 @@ function Projects() {
   );
 
   return (
-    <div className="flex flex-wrap gap-6">
+    <div className="flex flex-wrap gap-6" id="projects">
       <h2 className="mt-8 text-4xl text-white font-bold">Projects</h2>
       <div className="flex flex-wrap w-full">
         {currentProjects.map((project, index) => (
