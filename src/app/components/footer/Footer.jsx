@@ -56,15 +56,16 @@ function Footer() {
               className="text-gray-400 hover:text-gray-900 dark:hover:text-white"
             >
               <svg
-                className="h-8 w-8 text-red-500"
+                class="h-8 w-8 text-yellow-500"
                 viewBox="0 0 24 24"
                 fill="none"
                 stroke="currentColor"
-                strokeWidth="2"
-                strokeLinecap="round"
-                strokeLinejoin="round"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
               >
-                <polyline points="14 9 9 4 4 9" />
+                {" "}
+                <polyline points="14 9 9 4 4 9" />{" "}
                 <path d="M20 20h-7a4 4 0 0 1-4-4V4" />
               </svg>
               <span className="sr-only">Leetcode account</span>
